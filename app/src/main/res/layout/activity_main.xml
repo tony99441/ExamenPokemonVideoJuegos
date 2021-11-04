@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnRegistrarEntrenador"
+        android:layout_width="198dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="140dp"
+        android:text="Registrar entrenador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDetalleEntrenador"
+        android:layout_width="206dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="44dp"
+        android:text="Detalle Entrenador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistrarEntrenador" />
+
+    <Button
+        android:id="@+id/btnListarPokemons"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:text="listar pokemons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCrearPokemon" />
+
+    <Button
+        android:id="@+id/btnPokemonsCapturados"
+        android:layout_width="183dp"
+        android:layout_height="65dp"
+        android:text="ver pokemons capturados"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnListarPokemons"
+        app:layout_constraintVertical_bias="0.361" />
+
+    <Button
+        android:id="@+id/btnCrearPokemon"
+        android:layout_width="167dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="148dp"
+        android:text="crear pokemon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDetalleEntrenador" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
